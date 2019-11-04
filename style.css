@@ -1,0 +1,146 @@
+body{
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+
+h1{
+	font-family: 'Biryani', sans-serif;
+	margin: 0px;
+	font-size: 3em;
+}
+
+h3{
+	font-family: 'Biryani', sans-serif;
+}
+
+input{
+	font-family: 'Biryani', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 0.7em;
+    padding-left: 10px;
+}
+
+input:focus{
+	outline: none !important;
+}
+
+input:-internal-autofill-selected{
+	background-color: white !important;
+}
+
+button{
+	font-family: 'Biryani', sans-serif;
+    width: 150px;
+    height: 40px;
+    font-size: 0.7em;
+    background-color: none;
+    background: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding-top: 5px;
+}
+
+button:focus{
+	outline: none !important;
+}
+
+
+#title{
+	display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#labelText{
+	font-family: 'Biryani', sans-serif;
+	font-size: 1.5em;
+}
+
+.container{
+	display: grid;
+    grid-template-columns: 10% 15% auto 15% 15%;
+    grid-template-rows: auto auto;
+    border-top-style: solid;
+}
+
+.container:hover{
+	background-color: black;
+	color: white;
+	border-top-color: black;
+}
+
+.expandContainer{
+  display: none;
+  grid-template-columns: 40% 20% 20% 20%;
+  padding-left: 5%;
+  background-color: black;
+  color: white;
+}
+
+.pokemonImg{
+	width: 80px;
+	display: flex;
+	align-items: center;
+	margin-top: 8px;
+}
+
+.pokeName{
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+}
+
+.indexNum{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#pokeHead{
+	display: grid;
+	grid-template-columns: 30% auto;
+}
+
+#pokeForm{
+	display: flex;
+    align-items: center;
+}
+
+.pokemonTypes{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+/*button*/
+#myBtn {
+	font-family: 'Biryani', sans-serif;
+	display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
